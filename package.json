@@ -1,0 +1,15 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:markslide/theme.git",
+  "author": "awmleer <awmleer@sparker.xyz>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "lessc src/one-dark/style.less src/one-dark/style.css"
+  },
+  "devDependencies": {
+    "less": "^3.10.3"
+  }
+}
